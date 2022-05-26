@@ -1,3 +1,2 @@
 site_name: Bonjour's Notepad
-theme:
-    name: readthedocs
+theme: readthedocs
