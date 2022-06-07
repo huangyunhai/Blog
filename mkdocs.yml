@@ -1,4 +1,4 @@
 site_name: Bonjour's Notepad
 nav:
-- Home: index.md
-- About: aboutmd
+  - Home: index.md
+  - About: aboutmd
