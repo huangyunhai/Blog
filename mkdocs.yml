@@ -1,2 +1,4 @@
 site_name: Bonjour's Notepad
-theme: readthedocs
+nav:
+- Home: index.md
+- About: aboutmd
