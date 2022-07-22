@@ -1,4 +1,5 @@
+site_name: Bonjour's Notepad
 theme: jekyll-theme-cayman
-nav:
-    - Home: 'index.md'
-    - About: 'about.md'
+pages:
+- [index.md, Home]
+- [about.md, About]
