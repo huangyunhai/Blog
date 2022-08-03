@@ -1,4 +1,5 @@
 site_name: Bonjour's Notepad
+theme: bootstrap
 nav:
   - Home: 'index.md'
   - About: 'aboutmd'
