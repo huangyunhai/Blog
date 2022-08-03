@@ -1,5 +1,5 @@
 site_name: Bonjour's Notepad
-theme: bootstrap
+theme: readthedocs
 nav:
   - Home: 'index.md'
   - About: 'aboutmd'
