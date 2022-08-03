@@ -16,5 +16,7 @@ jobs:
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install Mkdocs
+        run: pip install mkdocs-material
       - name: MkDocs gh-deploy
         run: mkdocs gh-deploy --force
