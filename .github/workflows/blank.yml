@@ -11,12 +11,15 @@ jobs:
     steps:
       - name: Checkout master
         uses: actions/checkout@v1
+        
+      - name: Actions Cache
+        uses: actions/cache@v2
+        with:
+            key: ${{ github.ref }}
+            path: .cache
 
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Install Mkdocs
         run: pip install mkdocs-material
+        
       - name: MkDocs gh-deploy
         run: mkdocs gh-deploy --force
