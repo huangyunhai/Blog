@@ -12,17 +12,8 @@ jobs:
       - name: Checkout master
         uses: actions/checkout@v1
         
-      - name: Actions Cache
-        uses: actions/cache@v2
-        with:
-            key: ${{ github.ref }}
-            path: .cache
-
       - name: Install Mkdocs
         run: pip install mkdocs-material
         
-      - name: Config Git
-        run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
-
       - name: MkDocs gh-deploy
         run: mkdocs gh-deploy --force
