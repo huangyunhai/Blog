@@ -1,1 +1,5 @@
-theme: jekyll-theme-leap-day
+title: 白云大海
+description: 工作学习随笔
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-minimal
