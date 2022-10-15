@@ -1,5 +1,7 @@
 ---
-layout: index
+layout: default
+title: Demo
+permalink: /demo
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
