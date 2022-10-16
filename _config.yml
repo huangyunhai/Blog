@@ -5,4 +5,4 @@ google_analytics:
 theme: jekyll-theme-minimal
 
 author: 云海
-baseUrl: ""
+baseurl: "Blog"
