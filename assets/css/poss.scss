@@ -23,18 +23,26 @@
 .scroll-nav__list {
   margin: 0;
   padding-left: 1.4em;
-  // list-style-type: none;
 }
 
-
+// 一级目录样式
 .scroll-nav__item {
-  margin-bottom: 5px;
+  font-size: 14px;
+  list-style:circle;
 }
 
+// 二级目录样式
+.scroll-nav__sub-item {
+  font-size: 12px;
+  list-style:circle;
+}
+
+// 目录选中样式
 .scroll-nav__item--active {
   font-weight: 600;
   position: relative;
-  
+
+  list-style:disc;
 }
 
 .scroll-nav__link {
@@ -43,17 +51,4 @@
   //display: block;
   //margin: 0 auto;
   //padding-left: 42px;
-}
-
-.post__article {
-  padding: 20px;
-  
-  @media screen and (min-width: 700px) {
-    margin-left: 210px;
-    padding: 30px;
-  }
-  
-  @media screen and (min-width: 1000px) {
-    margin-left: 310px;
-  }
 }

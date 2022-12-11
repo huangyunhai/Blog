@@ -3,7 +3,7 @@
   <ul class="category-ul">
     {% for category in site.categories %}
       <li>
-        <div class="category-item">{{ category | first }}({{ category | last | size }})</div>
+        <text class="category-item">{{ category | first }}({{ category | last | size }})</text>
         <ul class="post-ul">
           {% assign cat = category | first %}
           {% for post in site.categories[cat]  %}
